@@ -1,0 +1,16 @@
+{
+  "uriList": {
+    "getBoardCards": {
+      "uri": "https://api.trello.com/1/boards/%s/cards?key=%s&token=%s"
+    },
+    "getBoardLists": {
+      "uri": "https://api.trello.com/1/boards/%s/lists?key=%s&token=%s&fields=id,name&filter=open"
+    },
+    "getCustomFields": {
+      "uri": "https://api.trello.com/1/boards/%s/customFields?key=%s&token=%s"
+    },
+    "getCardDetails": {
+      "uri": "https://api.trello.com/1/cards/%s?key=%s&token=%s&customFieldItems=true"
+    }
+  }
+}
